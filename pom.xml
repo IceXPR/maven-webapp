@@ -10,7 +10,13 @@
   <packaging>war</packaging>
 
   <name>my-app</name>
-
+  <dependencies>
+    <dependency>
+      <groupId>javax.mail</groupId>
+      <artifactId>mail</artifactId>
+      <version>1.4</version>
+    </dependency>
+  </dependencies>
   <build>
     <pluginManagement>      <!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
